@@ -102,7 +102,6 @@ The course is split into 3 distinct modules each with a distinct project:
 ## Week 4 - Getting Started in 2D
 - Hello Godot
 - Nodes and Scenes
-- DUE: Process Paper
 - Genres in 2D
 - Project Brainstorming
 - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
@@ -110,14 +109,12 @@ The course is split into 3 distinct modules each with a distinct project:
 ## Week 5 - Coding Fundamentals
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
 - Scripts and properties
-- DUE: Lab 1
-- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
-- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 - Variables
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+- DUE: Lab 1
+- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 ## Week 6 – Input and Interactions
-
 - Git Branches
 - Area2D, Characterbody, Collisions
 - Lab Review
@@ -174,16 +171,8 @@ The course is split into 3 distinct modules each with a distinct project:
 
 ---
 # Aditional Topics
-## Characters and Interactions
-## User Interface
-## 2D Game Playtests
-## Intro to 3D
-## 3D Environments
 ## Physics
 ## Effects
-## Advanced Topics
-## Project Development
-## Final Projects
 
 
 # **Necessary Materials:**
@@ -220,6 +209,6 @@ John Bezark (he/they) is a Brooklyn based Game Designer, Creative Technologist, 
 Nowadays they like to use the Godot Game Engine to create one of a kind immersive and interactive experiences, games and performance art.
 
 When not creating weird things, John also really likes to work in education and he’s passionate about teaching others how to design immersive spaces, how to make games and how to see the world through the lens of Systems Thinking.
-**Email: jbezark@fordham.edu**
+**Email: jbezark@sva.edu**
 [Portfolio](https://johnbezark.info/)
 
