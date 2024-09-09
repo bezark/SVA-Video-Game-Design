@@ -80,7 +80,7 @@ Break - 10
 - Group Work - 20
 
 - ASSIGN: [Game Review](/Assignments/Game_Review.md)
-- ASSIGN: [Tabletop Game](/Assignments/Tabletop.md) 
+- ASSIGN: [Tabletop Game](Assignments/Tabletop/Tabletop.md) 
 
 ## Week 2 - Prototypes and Iterations
 - Prototyping Tabletop Games: Balancing and Mechanics
