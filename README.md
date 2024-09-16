@@ -85,8 +85,7 @@ Break - 10
 ## Week 2 - Prototypes and Iterations
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA and Magic Circle
-- MDA Framework
-- Systems, Loops and Balance
+- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/18TuUtO405Qq6xRcPOrpZb_LZn4NCch2jy6kYI-HcF08/edit#slide=id.p)
 - Fabrication
 - Playtesting
 
