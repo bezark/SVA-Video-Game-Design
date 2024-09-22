@@ -98,10 +98,10 @@ Break - 10
 - Git init
 - Getting started with Godot
 - Nodes and Scenes
+- [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
 
 - DUE: Tabletop Game
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
-
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
