@@ -1,10 +1,13 @@
 # Top of Mind
 - Please watch the [video turotial on Github and Godot!](https://www.youtube.com/watch?v=E1srposxZWo)
 - Please fill out this [2D Group Assignment Survey](https://forms.gle/tCmMaLaptu2LcJFf8).
-- [Figma Card Template](https://www.figma.com/design/wt4vPDQeZ0lFPG59j0r4eT/Card-Template?node-id=0-1&t=wf8vxmDVZzUGeBoS-1)
-  - [Google Sheets Sync](https://www.figma.com/community/plugin/735770583268406934)
 
+### Steve Lee is so cool!
+- [How to Design a level](https://www.youtube.com/watch?v=0FSssDWEFLc)
+- [Orthagonal Design](https://www.youtube.com/watch?v=hW5s5Wb5vo4)
+- [How to Design a Game Faster and Better](https://www.youtube.com/watch?v=pAYi-kbayYY)
 
+![Dog](DOG.webp)
 # SVA Introduction to Game Design Syllabus - Fall 2024
 
 **Course Code:** DSD-4721-A
