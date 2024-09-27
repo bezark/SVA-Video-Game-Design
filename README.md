@@ -76,16 +76,11 @@ The course is split into 3 distinct modules each with a distinct project:
 - [Week 1 Slides](https://docs.google.com/presentation/d/1XyTh790-vgH1Z5X2Lh1e2syvccYtGBS-zmjpKJIgLjc/edit?usp=sharing)
 -Who are you/Syllabus Review - 30
 - Professor John - 10
-
-
 - Game Design Fundamentals - 40
-
 Break - 10
 - The Iterative Game Design Process 20
 - Prototyping - 20
-
 - Playtesting - 30
-
 - Group Work - 20
 
 - ASSIGN: [Game Review](/Assignments/Game_Review.md)
@@ -210,7 +205,6 @@ Break - 10
 - [Demo Projects](https://github.com/godotengine/godot-demo-projects)
 - [Forums](https://forum.godotengine.org/)
 - [Godot Discord](https://discord.com/invite/zH7NUgz)
-
 - **[TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)**
 
 ## Git & Github
