@@ -108,10 +108,14 @@ Break - 10
 
 ## Week 4 - Getting Started in 2D
 - Hello Godot
-- Nodes and Scenes
-- Genres in 2D
-- Project Brainstorming
-- [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+  - Lab 1 review
+  - Nodes and Scenes
+
+- [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+  - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+
+- Sandbox
 
 ## Week 5 - Coding Fundamentals
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
