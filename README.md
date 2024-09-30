@@ -1,4 +1,6 @@
 # Top of Mind
+https://www.youtube.com/watch?v=LOhfqjmasi0
+https://www.youtube.com/watch?v=22VYNOtrcgM
 - Please watch the [video turotial on Github and Godot!](https://www.youtube.com/watch?v=E1srposxZWo)
 - Please fill out this [2D Group Assignment Survey](https://forms.gle/tCmMaLaptu2LcJFf8).
 
