@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://blau6nlm3l7hx"]
+
+[ext_resource type="Texture2D" uid="uid://cqqhcxojrmldv" path="res://Assets/icon.svg" id="1_itf0t"]
+
+[node name="Player" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(55, -27)
+
+[node name="Body" type="Sprite2D" parent="."]
+position = Vector2(55, -27)
+texture = ExtResource("1_itf0t")
+
+[node name="Leg" type="Sprite2D" parent="Body"]
+position = Vector2(-55, 240)
+texture = ExtResource("1_itf0t")
+
+[node name="Torso" type="Sprite2D" parent="Body"]
+position = Vector2(8, 124)
+scale = Vector2(2.3125, 1)
+texture = ExtResource("1_itf0t")
+
+[node name="Leg2" type="Sprite2D" parent="Body"]
+position = Vector2(113, 244)
+texture = ExtResource("1_itf0t")
+
+[node name="Habd" type="Sprite2D" parent="Body"]
+position = Vector2(137.5, 7.5)
+scale = Vector2(0.320312, 0.898438)
+texture = ExtResource("1_itf0t")
+
+[node name="Hand" type="Sprite2D" parent="Body"]
+position = Vector2(-137, 17)
+scale = Vector2(0.320312, 0.898438)
+texture = ExtResource("1_itf0t")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -500.0
+offset_top = -317.0
+offset_right = -412.0
+offset_bottom = -294.0
+text = "Health: 100"

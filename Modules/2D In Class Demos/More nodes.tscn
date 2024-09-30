@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://dod6t70fn1d3s"]
+
+[ext_resource type="Texture2D" uid="uid://cqqhcxojrmldv" path="res://Assets/icon.svg" id="1_5uv2e"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(12, 3)
+texture = ExtResource("1_5uv2e")
+
+[node name="Camera2D" type="Camera2D" parent="Icon"]
+
+[node name="Button" type="Button" parent="."]
+offset_left = 263.0
+offset_top = 127.0
+offset_right = 322.0
+offset_bottom = 158.0
+text = "HELLO"

@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://7c6mcij7oqeg"]
+
+[ext_resource type="FontFile" uid="uid://hm323pqney73" path="res://Assets/VeganStylePersonalUse-5Y58.ttf" id="1_nf0b3"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_5pmah"]
+font = ExtResource("1_nf0b3")
+font_size = 124
+font_color = Color(1, 0.380392, 1, 1)
+
+[node name="Label Eample" type="Node2D"]
+position = Vector2(-134, -1)
+scale = Vector2(0.25, 0.25)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 92.0001
+offset_top = 60.0
+offset_right = 2189.0
+offset_bottom = 316.0
+scale = Vector2(5.87302, 1.1547)
+text = "Whatever you want"
+label_settings = SubResource("LabelSettings_5pmah")
