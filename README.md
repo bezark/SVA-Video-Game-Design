@@ -1,13 +1,14 @@
 # Top of Mind
-- [Brackeys](https://www.youtube.com/watch?v=LOhfqjmasi0)
+## Here are some really useful videos
+- [Simple First Video Game Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)
 - [Every 2D Node](https://www.youtube.com/watch?v=22VYNOtrcgM)
-- Please watch the [video turotial on Github and Godot!](https://www.youtube.com/watch?v=E1srposxZWo)
-- Please fill out this [2D Group Assignment Survey](https://forms.gle/tCmMaLaptu2LcJFf8).
+- [Lab 1 Video turotial on Github and Godot!](https://www.youtube.com/watch?v=E1srposxZWo)
+- [How to Design a Game Faster and Better](https://www.youtube.com/watch?v=pAYi-kbayYY) <- DEFINITELY WATCH THIS ONE IT IS SUPER IMPORTANT!!!!!
 
-### Steve Lee is so cool!
-- [How to Design a level](https://www.youtube.com/watch?v=0FSssDWEFLc)
-- [Orthagonal Design](https://www.youtube.com/watch?v=hW5s5Wb5vo4)
-- [How to Design a Game Faster and Better](https://www.youtube.com/watch?v=pAYi-kbayYY)
+## DUE NEXT WEEK:
+- **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
+- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+
 
 ![Dog](DOG.webp)
 # SVA Introduction to Game Design Syllabus - Fall 2024

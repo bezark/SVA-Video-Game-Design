@@ -85,3 +85,9 @@ Resources
 
 # 3D
 - [How do video game graphics work branch education](https://www.youtube.com/watch?v=C8YtdC8mxTU)
+
+
+# Steve Lee is so cool!
+- [How to Design a level](https://www.youtube.com/watch?v=0FSssDWEFLc)
+- [Orthagonal Design](https://www.youtube.com/watch?v=hW5s5Wb5vo4)
+- [How to Design a Game Faster and Better](https://www.youtube.com/watch?v=pAYi-kbayYY)
