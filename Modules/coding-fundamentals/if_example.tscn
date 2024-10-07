@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ig78o0irfc1u"]
+
+[ext_resource type="Script" path="res://if_example.gd" id="1_4f6f1"]
+
+[node name="IfExample" type="Node2D"]
+script = ExtResource("1_4f6f1")
+score = 18

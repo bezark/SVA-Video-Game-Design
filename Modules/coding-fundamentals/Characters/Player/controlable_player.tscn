@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://10n3au72sbxn"]
+
+[ext_resource type="Texture2D" uid="uid://bje1wmqqs16r2" path="res://icon.svg" id="1_s57ub"]
+[ext_resource type="Script" path="res://Characters/Player/controlable_player.gd" id="2_blh6l"]
+
+[node name="ControlablePlayer" type="Sprite2D"]
+texture = ExtResource("1_s57ub")
+script = ExtResource("2_blh6l")
