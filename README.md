@@ -1,5 +1,7 @@
 # Top of Mind
 ## Here are some really useful videos
+
+- [Lecture](https://youtube.com/live/_B1OV87gQ8E?feature=share)
 - [Simple First Video Game Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)
 - [Every 2D Node](https://www.youtube.com/watch?v=22VYNOtrcgM)
 - [Lab 1 Video turotial on Github and Godot!](https://www.youtube.com/watch?v=E1srposxZWo)
