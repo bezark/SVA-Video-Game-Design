@@ -122,10 +122,11 @@ Break - 10
 
 ## Week 5 - Coding Fundamentals
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
-- Scripts and properties
-- Variables
+  - Scripts and properties
+  - Variables
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - DUE: Lab 1
+
 - **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
