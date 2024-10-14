@@ -1,8 +1,9 @@
 # Top of Mind
 ## Here are some really useful videos
+- [Lecture(https://youtube.com/live/hgKD1UNwm_k)]
+- [Tilemap Demo](https://www.youtube.com/live/VM4OeL2AgNk)
 
-- [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
-- [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+
 - [Simple First Video Game Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)
 - [Every 2D Node](https://www.youtube.com/watch?v=22VYNOtrcgM)
 
@@ -121,6 +122,8 @@ Break - 10
 - Sandbox
 
 ## Week 5 - Coding Fundamentals
+- [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+- [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
@@ -131,8 +134,9 @@ Break - 10
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 ## Week 6 – Input and Interactions
+- [Lecture(https://youtube.com/live/hgKD1UNwm_k)]
 - Lab Review - 20
-  > Create a 2D godot project that has:
+  Create a 2D godot project that has:
     - A godot project in a github repository (can be the same repository from last week)
     - A node with a script that:
       - Has an exported variable
