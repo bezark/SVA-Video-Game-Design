@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxpwopfeoypn7"]
+
+[ext_resource type="PackedScene" uid="uid://hw3j64q5h080" path="res://SimplePlatformer/simple_platformer_player.tscn" id="1_ihc2i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eh53w"]
+size = Vector2(321, 92)
+
+[node name="PlatformerLevel" type="Node2D"]
+
+[node name="SimplePlayer" parent="." instance=ExtResource("1_ihc2i")]
+
+[node name="SimplePlatform" type="StaticBody2D" parent="."]
+position = Vector2(4, 402)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SimplePlatform"]
+position = Vector2(150.5, 36)
+shape = SubResource("RectangleShape2D_eh53w")
+
+[node name="ColorRect" type="ColorRect" parent="SimplePlatform"]
+offset_left = -11.0
+offset_top = -11.0
+offset_right = 315.0
+offset_bottom = 83.0
+color = Color(0.439306, 0.299386, 0.810044, 1)
+
+[node name="SimplePlatform2" type="StaticBody2D" parent="."]
+position = Vector2(472, 402)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SimplePlatform2"]
+position = Vector2(150.5, 36)
+shape = SubResource("RectangleShape2D_eh53w")
+
+[node name="ColorRect" type="ColorRect" parent="SimplePlatform2"]
+offset_left = -11.0
+offset_top = -11.0
+offset_right = 315.0
+offset_bottom = 83.0
+color = Color(0.439306, 0.299386, 0.810044, 1)

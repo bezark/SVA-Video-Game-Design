@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://hw3j64q5h080"]
+
+[ext_resource type="Script" path="res://SimplePlatformer/simple_player.gd" id="1_mruxn"]
+[ext_resource type="Texture2D" uid="uid://dgceyfak8xgg6" path="res://icon.svg" id="2_ffj4s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5g2u6"]
+size = Vector2(129, 131)
+
+[node name="SimplePlayer" type="CharacterBody2D"]
+script = ExtResource("1_mruxn")
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = ExtResource("2_ffj4s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("RectangleShape2D_5g2u6")

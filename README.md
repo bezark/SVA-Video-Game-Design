@@ -132,8 +132,15 @@ Break - 10
 
 ## Week 6 – Input and Interactions
 - Lab Review - 20
+  > Create a 2D godot project that has:
+    - A godot project in a github repository (can be the same repository from last week)
+    - A node with a script that:
+      - Has an exported variable
+      - Uses conditional logic (`if`, `else`, or `elif`)
+      - Responds to user input with `Input`
 
 - Git Collaboration - 30
+  - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - Git Branches
 
 - Area2D, Characterbody, Collisions - 40
