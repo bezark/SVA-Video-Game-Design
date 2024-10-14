@@ -1,6 +1,6 @@
 # Top of Mind
 ## Here are some really useful videos
-- [Lecture(https://youtube.com/live/hgKD1UNwm_k)]
+- [Lecture](https://youtube.com/live/hgKD1UNwm_k)
 - [Tilemap Demo](https://www.youtube.com/live/VM4OeL2AgNk)
 
 
