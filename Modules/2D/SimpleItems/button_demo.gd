@@ -1,6 +1,4 @@
-extends Node2D
-
-@export var scene_to_load : PackedScene
+extends Control
 
 
 # Called when the node enters the scene tree for the first time.
@@ -13,9 +11,5 @@ func _process(delta):
 	pass
 
 
-func _on_area_2d_body_entered(body):
-	print(body)
-	print("thing was triggered")
-	get_tree().change_scene_to_packed(scene_to_load)
-	
-	
+func _on_button_button_down():
+	print("pressed")
