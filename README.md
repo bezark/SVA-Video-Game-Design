@@ -5,15 +5,12 @@
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - [Simple First Video Game Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)
 - [Every 2D Node](https://www.youtube.com/watch?v=22VYNOtrcgM)
-- [Lab 1 Video turotial on Github and Godot!](https://www.youtube.com/watch?v=E1srposxZWo)
-- [How to Design a Game Faster and Better](https://www.youtube.com/watch?v=pAYi-kbayYY) <- DEFINITELY WATCH THIS ONE IT IS SUPER IMPORTANT!!!!!
 
-## DUE NEXT WEEK:
-- **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
-- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
-
+## Homework:
+- [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ![Dog](DOG.webp)
+
 # SVA Introduction to Game Design Syllabus - Fall 2024
 
 **Course Code:** DSD-4721-A
@@ -134,14 +131,23 @@ Break - 10
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 ## Week 6 – Input and Interactions
-- Git Branches
-- Area2D, Characterbody, Collisions
-- Lab Review
-- Signals
-- Functions/Arrays
-- [Demo Projects](/Resources/Demo Projects)
-- DUE: Lab 2
+- Lab Review - 20
 
+- Git Collaboration - 30
+- Git Branches
+
+- Area2D, Characterbody, Collisions - 40
+- Signals
+
+BREAK
+
+- Sprites
+- Tilemaps
+
+- Sandbox
+
+- DUE: Lab 2
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ## Week 7 - Level and Environment Design
 - Assets
@@ -149,8 +155,6 @@ Break - 10
 - Sound
 - Common Patterns: Levels, Checkpoints and Respawns
 - DUE: 2D Game Concept
-- Git Collaboration
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 
 ## Week 8 - UI
