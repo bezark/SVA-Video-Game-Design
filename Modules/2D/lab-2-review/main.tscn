@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bo76hpxpqrvij"]
+
+[ext_resource type="PackedScene" uid="uid://suj0ibbn1jwx" path="res://chacter.tscn" id="1_kb1lw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" parent="." instance=ExtResource("1_kb1lw")]
+
+[node name="Character" parent="." instance=ExtResource("1_kb1lw")]
+position = Vector2(591, 351)
+character_name = "Tommy"
+
+[node name="Character2" parent="." instance=ExtResource("1_kb1lw")]
+position = Vector2(560, 161)
+character_name = "Barbara"
