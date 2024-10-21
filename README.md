@@ -161,11 +161,14 @@ BREAK
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ## Week 7 - Level and Environment Design
-- Tilemap Demos
+3:20 - Tilemap Demos
   - Platformer
   - TopDown
 - Sound
-- Common Patterns: Levels, Checkpoints and Respawns
+
+4:00 - Common Patterns: Levels, Checkpoints and Respawns
+
+4:30 - Break
 
 - Sandbox
 
@@ -173,7 +176,6 @@ BREAK
 
 - Control Nodes
 - Common Patterns – Items and Enemies
-- [Characters, Levels and Items](/Sessions/Characters_Levels_Items)
 - Project Development
 
 ## Week 9 - Playtesting / Hello 3D
