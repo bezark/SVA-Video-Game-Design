@@ -134,7 +134,7 @@ Break - 10
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 ## Week 6 – Input and Interactions
-- [Lecture(https://youtube.com/live/hgKD1UNwm_k)]
+- [Lecture](https://youtube.com/live/hgKD1UNwm_k)
 - Lab Review - 20
   Create a 2D godot project that has:
     - A godot project in a github repository (can be the same repository from last week)
