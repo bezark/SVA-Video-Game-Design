@@ -11,4 +11,7 @@ func _process(delta: float) -> void:
 
 
 func _on_body_entered(body: Node2D) -> void:
+	print(body)
+	body.position.y= -100
+	body.position.x = 0
 	body.health = 0

@@ -3,6 +3,7 @@
 [ext_resource type="Script" path="res://ProjectileAttacking/Gun.gd" id="1_2edbo"]
 
 [node name="Gun" type="Node2D"]
+position = Vector2(52, 63)
 script = ExtResource("1_2edbo")
 
 [node name="Body" type="CanvasGroup" parent="."]
@@ -12,6 +13,7 @@ modulate = Color(0.337255, 0.341176, 0.298039, 1)
 offset_left = -20.0
 offset_top = -40.0
 offset_right = 20.0
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect2" type="ColorRect" parent="Body"]
 offset_left = 4.0

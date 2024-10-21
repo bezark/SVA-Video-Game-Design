@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=3 uid="uid://bycr41yl8bo5s"]
+
+[ext_resource type="Texture2D" uid="uid://drttqd2xwaegi" path="res://icon.svg" id="1_qcbha"]
+[ext_resource type="Script" path="res://character_body_2d.gd" id="1_s3hnl"]
+[ext_resource type="PackedScene" uid="uid://jpkuufcqc1o" path="res://coin.tscn" id="3_cggxb"]
+[ext_resource type="PackedScene" uid="uid://dwjybohuc7q5e" path="res://box.tscn" id="3_hhvv4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e2six"]
+size = Vector2(128, 128)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_smntl"]
+radius = 155.052
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_30cvt"]
+size = Vector2(737, 157)
+
+[node name="NewLevel" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_s3hnl")
+
+[node name="Icon" type="Sprite2D" parent="Player"]
+texture = ExtResource("1_qcbha")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(1, 2)
+shape = SubResource("RectangleShape2D_e2six")
+
+[node name="Area2D" type="Area2D" parent="Player"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Area2D"]
+shape = SubResource("CircleShape2D_smntl")
+
+[node name="Box" parent="." instance=ExtResource("3_hhvv4")]
+position = Vector2(566, 368)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 27.0
+offset_top = 431.0
+offset_right = 766.0
+offset_bottom = 586.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ColorRect"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect/StaticBody2D"]
+position = Vector2(369, 77)
+shape = SubResource("RectangleShape2D_30cvt")
+
+[node name="Coin" parent="." instance=ExtResource("3_cggxb")]
+position = Vector2(273, 286)
+
+[connection signal="area_entered" from="Player/Area2D" to="Player" method="_on_area_2d_area_entered"]
