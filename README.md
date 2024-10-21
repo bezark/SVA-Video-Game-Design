@@ -161,12 +161,13 @@ BREAK
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ## Week 7 - Level and Environment Design
-- Assets
-- Tilemaps
+- Tilemap Demos
+  - Platformer
+  - TopDown
 - Sound
 - Common Patterns: Levels, Checkpoints and Respawns
-- DUE: 2D Game Concept
 
+- Sandbox
 
 ## Week 8 - UI
 

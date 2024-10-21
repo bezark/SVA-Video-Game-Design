@@ -12,8 +12,12 @@ config_version=5
 
 config/name="2D Components"
 run/main_scene="res://Examples/Levels/simple_level.tscn"
-config/features=PackedStringArray("4.2", "GL Compatibility")
+config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://Assets/icon.svg"
+
+[audio]
+
+buses/default_bus_layout=""
 
 [rendering]
 
