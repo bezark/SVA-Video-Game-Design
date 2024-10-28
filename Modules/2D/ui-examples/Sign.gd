@@ -1,4 +1,4 @@
-extends Control
+extends Area2D
 
 
 # Called when the node enters the scene tree for the first time.
@@ -11,5 +11,5 @@ func _process(delta):
 	pass
 
 
-func _on_button_button_down():
-	print("pressed")
+func _on_body_exited(body):
+	queue_free()

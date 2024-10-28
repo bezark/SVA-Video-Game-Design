@@ -173,9 +173,10 @@ BREAK
 - Sandbox
 
 ## Week 8 - UI
-
 - Control Nodes
+
 - Common Patterns – Items and Enemies
+
 - Project Development
 
 ## Week 9 - Playtesting / Hello 3D

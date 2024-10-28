@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://rakqg1aaotfq"]
+[gd_scene load_steps=2 format=3 uid="uid://dwdf1vlknn8p7"]
 
-[sub_resource type="GDScript" id="GDScript_u4x82"]
+[sub_resource type="GDScript" id="GDScript_7qn4h"]
 script/source = "extends Control
 
 
@@ -25,7 +25,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = SubResource("GDScript_u4x82")
+script = SubResource("GDScript_7qn4h")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
