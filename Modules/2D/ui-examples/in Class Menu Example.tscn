@@ -1,0 +1,83 @@
+[gd_scene load_steps=7 format=3 uid="uid://c7ksn17t0oc8o"]
+
+[ext_resource type="FontFile" uid="uid://bitpop06d1nij" path="res://mexcellent rg.otf" id="1_8mc3r"]
+[ext_resource type="FontFile" uid="uid://bu1e5iea2i4m6" path="res://mexcellent 3d.otf" id="2_04ymt"]
+[ext_resource type="Script" path="res://in_class_menu_example.gd" id="3_jhofc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m3a06"]
+bg_color = Color(0.0242372, 0.696639, 0.60551, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.345098, 0.164706, 0.8, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+shadow_color = Color(0, 0, 0, 0.898039)
+shadow_size = 3
+
+[sub_resource type="Theme" id="Theme_we0r5"]
+Button/colors/font_color = Color(0.87451, 0.482353, 0.87451, 1)
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("1_8mc3r")
+Button/styles/normal = SubResource("StyleBoxFlat_m3a06")
+Label/colors/font_color = Color(1, 0.517647, 0.356863, 1)
+Label/fonts/font = ExtResource("2_04ymt")
+
+[sub_resource type="LabelSettings" id="LabelSettings_mwhy0"]
+font_size = 72
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_we0r5")
+script = ExtResource("3_jhofc")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 100
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "My Cool Game"
+label_settings = SubResource("LabelSettings_mwhy0")
+
+[node name="Buttons" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 10
+
+[node name="Start" type="Button" parent="MarginContainer/VBoxContainer/Buttons"]
+layout_mode = 2
+text = "Start Game"
+
+[node name="Quit" type="Button" parent="MarginContainer/VBoxContainer/Buttons"]
+layout_mode = 2
+text = "Quit"
+
+[node name="Options" type="Button" parent="MarginContainer/VBoxContainer/Buttons"]
+layout_mode = 2
+text = "Options"
+
+[connection signal="button_down" from="MarginContainer/VBoxContainer/Buttons/Start" to="." method="_on_start_button_down"]
