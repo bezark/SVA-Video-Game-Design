@@ -1,0 +1,68 @@
+[gd_scene load_steps=7 format=3 uid="uid://dwjybohuc7q5e"]
+
+[ext_resource type="Script" path="res://box.gd" id="1_lyp0p"]
+[ext_resource type="Texture2D" uid="uid://drttqd2xwaegi" path="res://icon.svg" id="2_57km4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uaq3p"]
+size = Vector2(130, 127)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3b5lt"]
+radius = 176.921
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tyiw1"]
+bg_color = Color(0.988957, 0.988957, 0.988957, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="LabelSettings" id="LabelSettings_7jrhx"]
+font_size = 32
+font_color = Color(0, 0, 0, 1)
+
+[node name="Box" type="Node2D"]
+script = ExtResource("1_lyp0p")
+dialogue = Array[String](["Hello", "How are you doing?", "I'm having a gaWd day!"])
+
+[node name="Icon" type="Sprite2D" parent="."]
+modulate = Color(0.282353, 0.27451, 0.278431, 1)
+position = Vector2(4, -7)
+texture = ExtResource("2_57km4")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(5, -7.5)
+shape = SubResource("RectangleShape2D_uaq3p")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(12, -81)
+shape = SubResource("CircleShape2D_3b5lt")
+
+[node name="DialogueBox" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="PanelContainer" type="PanelContainer" parent="DialogueBox"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_tyiw1")
+
+[node name="Text" type="Label" parent="DialogueBox/PanelContainer"]
+layout_mode = 2
+text = "Hello You are tlaking to me"
+label_settings = SubResource("LabelSettings_7jrhx")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

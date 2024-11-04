@@ -1,7 +1,7 @@
 # Top of Mind
 ## Here are some really useful videos
-- [Lecture](https://youtube.com/live/hgKD1UNwm_k)
-- [Tilemap Demo](https://www.youtube.com/live/VM4OeL2AgNk)
+- [Dialogue Box](https://youtube.com/live/U0wm6X5YFDk)
+- [Tilemap and Sound](https://youtube.com/live/7PDcN8Y8eUM)
 
 
 - [Simple First Video Game Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)
@@ -173,9 +173,10 @@ BREAK
 - Sandbox
 
 ## Week 8 - UI
-
 - Control Nodes
+
 - Common Patterns – Items and Enemies
+
 - Project Development
 
 ## Week 9 - Playtesting / Hello 3D
