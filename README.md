@@ -189,10 +189,10 @@ BREAK
 - Lighting and Camera Techniques in 3D Games
 - Materials, Models
 - Light, Sound
-- DUE: Lab 4
 
 ## Week 11
 - Physics
+- DUE: Lab 4
 
 ## Week 12 Review and Capstone Presentations
 - Review
