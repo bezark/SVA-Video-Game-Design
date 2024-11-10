@@ -1,3 +1,11 @@
+## Here are some really useful videos
+- [Dialogue Box](https://youtube.com/live/U0wm6X5YFDk)
+- [Tilemap and Sound](https://youtube.com/live/7PDcN8Y8eUM)
+
+
+- [Simple First Video Game Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)
+- [Every 2D Node](https://www.youtube.com/watch?v=22VYNOtrcgM)
+
 Tutorials and resources
 =======================
 
