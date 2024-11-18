@@ -13,7 +13,7 @@ Design and create a game that can be played and completed within a 10-15 minute 
 - **Rule-set:** Incorporate a simple yet effective set of game mechanics and rules that are easy for players to understand and interact with.
 
 #### Submission Requirements:
-- **Conduct a playtest on 12/3:** Conduct an in class playtest of your game on the last day of class
+- **Conduct a playtest on 12/9:** Conduct an in class playtest of your game on the last day of class
 - Publish your game on Itch.io
 
 #### Grading Criteria: (Total 30 Points)
