@@ -1,6 +1,6 @@
 # Top of Mind
 
-[CAPSTONE BRAINSTORM(https://www.tldraw.com/r/LYSLfMUMM4IDchBeWhI_e?d=v-1.0.1921.909.page)
+[CAPSTONE BRAINSTORM](https://www.tldraw.com/r/LYSLfMUMM4IDchBeWhI_e?d=v-1.0.1921.909.page)
 
 Hello folks! As we approach the end of the semester, here are some important reminders: 
 
