@@ -195,9 +195,19 @@ BREAK
 - Light, Sound
 
 ## Week 11
-- [Capstone Brainstorm](/Modules/CapstoneBrainstorm.md)
-- Physics
+- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
+
+
+- Materials, Models, Lights, Fog, Camera Attrributes
+
+- Animated Characters
+  - [Mixamo](https://www.mixamo.com)
+  - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
+
+- Physics/Sandbox
+
 - DUE: Lab 4
+
 
 ## Week 12 Review and Capstone Presentations
 - Review
@@ -206,7 +216,7 @@ BREAK
   - NPCs, Classes and Inheritance...
 - Capstone presentations 
 
-## Week 14 - Review
+## Week 13 - Review
 - DUE: Final project playtest
 - Preparing for the Game Industry: Portfolio and Career Paths
 
