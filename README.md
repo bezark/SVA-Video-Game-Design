@@ -195,6 +195,7 @@ BREAK
 - Light, Sound
 
 ## Week 11
+- [Capstone Brainstorm](CapstoneBrainstorm)
 - Physics
 - DUE: Lab 4
 
