@@ -1,19 +1,12 @@
 # Top of Mind
 JOIN THE [CAPSTONE GAME JAM](https://itch.io/jam/sva-design-jam)
-[CAPSTONE BRAINSTORM](https://www.tldraw.com/r/LYSLfMUMM4IDchBeWhI_e?d=v-1.0.1921.909.page)
 
-Hello folks! As we approach the end of the semester, here are some important reminders: 
 
-## Intro to 3D and Lab 4
+[Jobs in Game Design](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
 
-In lieu of in person class this week, here are the video recordings introducing you to 3D in Godot. Please watch them and then complete [Lab 4](/Assignments/Labs/Lab_4.md).
-- [Hello 3D part 1](https://www.youtube.com/live/YKmOb1VFDsQ?si=w9XixyqFKSPfQ-Hu)
-- [Hello 3D part 2](https://www.youtube.com/live/fMbfi5HR-uc?si=AUAM_GFpERKfrEPZ)
-- [Intro to 3D and Making a First Person Camera Controller](https://www.youtube.com/live/-yfEusTUQjY?si=mnYTAPJMNdZ5Eycy)
 
 ## Capstone Project
-Please begin thinking about your [Capstone Game](/Assignments/Capstone/Capstone_Game.md)! The [Capstone Concept Presentations](/Assignments/Capstone/Capstone_Concept.md) will begin on 11/22 and you all must be ready to give a 10 minute presentation on your capstone game at that time. As a reminder, **capstone groups are self selected** so please begin reaching out to your classmates if you wish to work in a group. I will open a discussion on canvas where you can try to connect with fellow class mates if you are looking for collaborators.
-
+- **The in class playtest for the [Capstone Game](/Assignments/Capstone/Capstone_Game.md) will be next week 12/9!**
 
 ![Dog](DOG.webp)
 
