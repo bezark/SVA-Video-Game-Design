@@ -1,0 +1,275 @@
+[gd_scene load_steps=42 format=3 uid="uid://ulhu0alwmsrn"]
+
+[ext_resource type="Texture2D" uid="uid://uo1ggb1ucdkt" path="res://Free Smoke Fx  Pixel 07.png" id="1_ml4j3"]
+[ext_resource type="Shader" path="res://smoke.gdshader" id="2_egf5r"]
+[ext_resource type="Shader" path="res://fire.gdshader" id="3_41qdc"]
+[ext_resource type="Texture2D" uid="uid://cr1gqyjsll8lx" path="res://icon.svg" id="4_uvco5"]
+
+[sub_resource type="Curve" id="Curve_f7sh1"]
+_data = [Vector2(0.291391, 0), 0.0, 0.0, 0, 0, Vector2(0.771523, 0.783211), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_pua43"]
+curve = SubResource("Curve_f7sh1")
+
+[sub_resource type="Gradient" id="Gradient_w15oq"]
+colors = PackedColorArray(0.676879, 0.676879, 0.676879, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_o0vix"]
+gradient = SubResource("Gradient_w15oq")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7gewx"]
+particle_flag_disable_z = true
+angle_min = -578.0
+angle_max = 669.3
+direction = Vector3(0, 0, 0)
+spread = 85.449
+initial_velocity_min = 49.3
+initial_velocity_max = 288.74
+gravity = Vector3(0, 0, 0)
+radial_accel_min = 22.54
+radial_accel_max = 46.48
+tangential_accel_min = -7.04
+tangential_accel_max = -7.04
+scale_min = 0.2
+scale_max = 3.0
+scale_over_velocity_max = 387.32
+color = Color(1, 1, 1, 0.65098)
+color_ramp = SubResource("GradientTexture1D_o0vix")
+alpha_curve = SubResource("CurveTexture_pua43")
+turbulence_enabled = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3iopw"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(21.5, 793, 21, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cqvw"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(0, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c8tml"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(64, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsaud"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(128, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62h0q"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(192, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ao32"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(256, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q1lb6"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(320, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k8hxt"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(384, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_niw6o"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(448, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4o710"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(512, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_37xdc"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(576, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eb7hv"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(640, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3cj7"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(704, 1024, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vup6x"]
+atlas = ExtResource("1_ml4j3")
+region = Rect2(768, 1024, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5jggu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cqvw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c8tml")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tsaud")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62h0q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ao32")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q1lb6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k8hxt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_niw6o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4o710")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_37xdc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eb7hv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3cj7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vup6x")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_caec6"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_hjtfk"]
+seamless = true
+noise = SubResource("FastNoiseLite_caec6")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ccp6x"]
+shader = ExtResource("2_egf5r")
+shader_parameter/density = 0.559
+shader_parameter/speed = Vector2(0.02, 0.01)
+shader_parameter/noise_texture = SubResource("NoiseTexture2D_hjtfk")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_34wp6"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_0k73k"]
+seamless = true
+noise = SubResource("FastNoiseLite_34wp6")
+
+[sub_resource type="Curve" id="Curve_ank4c"]
+_data = [Vector2(0.139073, 0.00423956), 0.0, 0.0, 0, 0, Vector2(0.665563, 0.294517), 0.0, 0.0, 0, 0, Vector2(0.847682, 0.118146), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_3mcn3"]
+curve = SubResource("Curve_ank4c")
+
+[sub_resource type="Gradient" id="Gradient_8cn68"]
+offsets = PackedFloat32Array(0.0368852, 1)
+colors = PackedColorArray(0.85098, 0, 0, 1, 1, 1, 0.490196, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_0uqkk"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_ipwee"]
+color_ramp = SubResource("Gradient_8cn68")
+noise = SubResource("FastNoiseLite_0uqkk")
+
+[sub_resource type="Gradient" id="Gradient_ixdp2"]
+offsets = PackedFloat32Array(0, 0.97541)
+colors = PackedColorArray(0, 0.713726, 0, 1, 1, 0.231373, 0.211765, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_7okwj"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_qgcvl"]
+color_ramp = SubResource("Gradient_ixdp2")
+noise = SubResource("FastNoiseLite_7okwj")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_f1qa3"]
+shader = ExtResource("3_41qdc")
+shader_parameter/s_scale_y = 1.0
+shader_parameter/l_s_scale_y = 1.0
+shader_parameter/lness = 1.0
+shader_parameter/lness2 = 0.0
+shader_parameter/noise = SubResource("NoiseTexture2D_ipwee")
+shader_parameter/noise2 = SubResource("NoiseTexture2D_qgcvl")
+shader_parameter/colo_curve = SubResource("CurveTexture_3mcn3")
+
+[sub_resource type="Gradient" id="Gradient_yv5l6"]
+offsets = PackedFloat32Array(0, 0.444805, 0.980519)
+colors = PackedColorArray(0.862745, 0, 0, 1, 0.905882, 0.490196, 0.470588, 0.14902, 1, 1, 0, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_ir4ay"]
+noise_type = 3
+frequency = 0.007
+offset = Vector3(672.57, 654.87, 824.56)
+fractal_octaves = 9
+fractal_lacunarity = 5.0
+fractal_weighted_strength = 0.36
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_qmwpe"]
+color_ramp = SubResource("Gradient_yv5l6")
+noise = SubResource("FastNoiseLite_ir4ay")
+
+[node name="ParticleDemo" type="Node2D"]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+texture_filter = 1
+position = Vector2(100, 55)
+amount = 100
+amount_ratio = 0.6429
+process_material = SubResource("ParticleProcessMaterial_7gewx")
+texture = SubResource("AtlasTexture_3iopw")
+lifetime = 10.0
+randomness = 0.55
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(69, 87)
+sprite_frames = SubResource("SpriteFrames_5jggu")
+autoplay = "default"
+frame_progress = 0.518741
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(65, 136)
+sprite_frames = SubResource("SpriteFrames_5jggu")
+autoplay = "default"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(166, 95)
+sprite_frames = SubResource("SpriteFrames_5jggu")
+autoplay = "default"
+frame_progress = 0.718804
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(120, 88)
+sprite_frames = SubResource("SpriteFrames_5jggu")
+autoplay = "default"
+frame_progress = 0.718804
+
+[node name="Smoke" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_ccp6x")
+position = Vector2(567, 353)
+scale = Vector2(2.19824, 1.23584)
+texture = SubResource("NoiseTexture2D_0k73k")
+
+[node name="Fire" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_f1qa3")
+position = Vector2(1623, 247)
+scale = Vector2(8.09766, 3.78125)
+texture = ExtResource("4_uvco5")
+
+[node name="Noise" type="Sprite2D" parent="."]
+position = Vector2(565, 239)
+scale = Vector2(1.47754, 0.678711)
+texture = SubResource("NoiseTexture2D_qmwpe")

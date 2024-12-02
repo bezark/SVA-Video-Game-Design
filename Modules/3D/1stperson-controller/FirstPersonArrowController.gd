@@ -3,6 +3,7 @@ extends CharacterBody3D
 @onready var camera_3d = $Neck/Camera3D
 @onready var neck = $Neck
 
+@export var movement_sens = 0.05
 
 
 const SPEED = 5.0
@@ -37,15 +38,25 @@ func _physics_process(delta):
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
-
-func _input(event):
-	if event is InputEventMouseButton:
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-	elif Input.is_action_just_pressed("ui_cancel"):
-		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-		
-	if event is InputEventMouseMotion:
-		print(event.relative)
-		camera_3d.rotate_x(-event.relative.y*0.005)
-		neck.rotate_y(-event.relative.x*0.005)
-		camera_3d.rotation.x = clamp(camera_3d.rotation.x, deg_to_rad(-30), deg_to_rad(60))
+	if Input.is_action_pressed("ui_up"):
+		camera_3d.rotate_x(movement_sens)
+	if Input.is_action_pressed("ui_down"):
+		camera_3d.rotate_x(-movement_sens)
+	if Input.is_action_pressed("ui_left"):
+		neck.rotate_y(movement_sens)
+	if Input.is_action_pressed("ui_right"):
+		neck.rotate_y(-movement_sens)
+	
+	camera_3d.rotation.x = clamp(camera_3d.rotation.x, deg_to_rad(-30), deg_to_rad(60))
+#func _input(event):
+	#if event.is_action_pressed("ui_right"):
+	#if event is InputEventMouseButton:
+		#Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	#elif Input.is_action_just_pressed("ui_cancel"):
+		#Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		#
+	#if event is InputEventMouseMotion:
+		#print(event.relative)
+		#camera_3d.rotate_x(-event.relative.y*0.005)
+		#neck.rotate_y(-event.relative.x*0.005)
+		#camera_3d.rotation.x = clamp(camera_3d.rotation.x, deg_to_rad(-30), deg_to_rad(60))

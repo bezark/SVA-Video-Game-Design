@@ -1,6 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://ba25r56kh2y3e"]
+[gd_scene load_steps=9 format=3 uid="uid://d163hendes8it"]
 
-[ext_resource type="Script" path="res://FirstPersonController.gd" id="1_xjdy5"]
+[ext_resource type="Script" path="res://FirstPersonArrowController.gd" id="1_bp3yx"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_21x75"]
 sky_horizon_color = Color(0.654093, 0.632127, 0.729657, 1)
@@ -51,7 +51,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.205794, 1.49527, -9.32455)
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
-script = ExtResource("1_xjdy5")
+script = ExtResource("1_bp3yx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
 shape = SubResource("CapsuleShape3D_7h66u")
